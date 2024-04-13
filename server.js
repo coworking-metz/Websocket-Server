@@ -56,7 +56,7 @@ wss.on('connection', function connection(ws) {
             });
         });
 
-        ws.send(`Registered with action ${action}`);
+        ws.send(`Registered for \`${action}\``);
     });
 
     ws.on('close', function close() {
