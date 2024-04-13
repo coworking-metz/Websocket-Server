@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "build" : "pm2 restart websocket-server",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
